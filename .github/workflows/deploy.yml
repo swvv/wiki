@@ -33,7 +33,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.3.0
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
           FOLDER: build # build 後的資料夾
